@@ -7,6 +7,7 @@ import "./App.css";
 
 import Navigation from "./Components/Header";
 import AboutMe from "./Components/AboutMe";
+import Footer from "./Components/Footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
           </Routes>
         </div>
       </Router>
+      <Footer />
     </>
   );
 }
