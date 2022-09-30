@@ -174,3 +174,29 @@ footer ul li {
   padding: 10px;
   color:aliceblue;
 }
+
+.resume-container {
+  text-align: center;
+  font-size: 50px;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  color: aliceblue;
+  padding: 10px;
+}
+
+.skills {
+  margin: 10px;
+  padding: 10px;
+  font-size: 30px;
+  font-weight: 600;
+  font-family: Arial, Helvetica, sans-serif;
+  color:#003452;
+  
+}
+
+.skills ul {
+  font-size: 25px;
+  font-family: cursive;
+  padding: 20px;
+  color:#003452;
+  text-decoration: none;
+}
