@@ -38,6 +38,15 @@
 }
 
 
+* {
+  box-sizing: border-box;
+  
+}
+
+body {
+  background-color: #5bb7eb;
+}
+
 .nav-container {
   position: relative;
   height: 150px;
@@ -108,9 +117,9 @@ img {
 
 footer {
   background: #003452;
-  height: 150px;
+  height: 100px;
   width: 100%;
-  position: relative;
+  position:fixed;
   justify-content: center;
   align-items: center;
   bottom: 0;
@@ -125,7 +134,6 @@ footer ul li {
 }
 
 .portfolio-container {
-  background-color: #5bb7eb;
   max-width: 100%;
   justify-content: center;
   align-items: center;
@@ -135,12 +143,14 @@ footer ul li {
 .portfolio-row {
   display: flex;
   flex-wrap: wrap;
+  padding: 80px;
 }
 
 .portfolio-card {
   background: #003452;
   max-width: 500px;
   margin: 20px;
+  margin-bottom: 2px;
   padding: 10px;
   justify-content: center;
   align-items: center;
@@ -151,14 +161,16 @@ footer ul li {
 
 .portfolio-image {
   max-width: 75%;
-  max-height: 75%;
+  max-height: 50%;
 
 }
 
-.portfolio-body {
-
-}
-
-.portfolio-button {
-
+.contact {
+  justify-content: center;
+  background-color: #5bb7eb;
+  align-items: center;
+  max-width: 50%;
+  margin: 20px;
+  padding: 10px;
+  color:aliceblue;
 }

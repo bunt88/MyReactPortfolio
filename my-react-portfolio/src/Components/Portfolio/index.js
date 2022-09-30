@@ -72,7 +72,7 @@ const Portfolio = () => {
         <Card className="portfolio-card">
           <Card.Img src={comingSoon} className="portfolio-image" />
           <Card.Body className="portfolio-body">
-            <Card.Title>Mint</Card.Title>
+            <Card.Title>Coming Soon</Card.Title>
             <Card.Text></Card.Text>
             <a href="https://github.com/bunt88" target="blank">
               <FaGithub />
@@ -90,7 +90,7 @@ const Portfolio = () => {
         <Card className="portfolio-card">
           <Card.Img src={comingSoon} className="portfolio-image" />
           <Card.Body className="portfolio-body">
-            <Card.Title>Mint</Card.Title>
+            <Card.Title>Coming Soon</Card.Title>
             <Card.Text></Card.Text>
             <a href="https://github.com/bunt88" target="blank">
               <FaGithub />
@@ -108,7 +108,7 @@ const Portfolio = () => {
         <Card className="portfolio-card">
           <Card.Img src={comingSoon} className="portfolio-image" />
           <Card.Body className="portfolio-body">
-            <Card.Title>Mint</Card.Title>
+            <Card.Title>Coming Soon</Card.Title>
             <Card.Text></Card.Text>
             <a href="https://github.com/bunt88" target="blank">
               <FaGithub />

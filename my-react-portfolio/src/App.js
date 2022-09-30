@@ -10,6 +10,7 @@ import AboutMe from "./Components/AboutMe";
 import Footer from "./Components/Footer";
 import Portfolio from "./Components/Portfolio";
 import Resume from "./Components/Resume";
+import Contact from "./Components/Contact";
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
             <Route path="/" element={<AboutMe />} />
             <Route path="/portfolio" element={<Portfolio />} />
             <Route path="/resume" element={<Resume />} />
+            <Route path="/contact" element={<Contact />} />
           </Routes>
         </div>
       </Router>
