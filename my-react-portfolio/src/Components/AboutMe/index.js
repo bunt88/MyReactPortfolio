@@ -38,9 +38,6 @@ const AboutMe = () => {
             <br />
             <br />
             <br />
-            <br />
-            <br />
-            <br />
           </div>
         </Col>
       </Row>

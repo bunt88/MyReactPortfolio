@@ -37,6 +37,7 @@
   }
 }
 
+
 .nav-container {
   position: relative;
   height: 150px;
@@ -109,7 +110,7 @@ footer {
   background: #003452;
   height: 150px;
   width: 100%;
-  position: fixed;
+  position: relative;
   justify-content: center;
   align-items: center;
   bottom: 0;
@@ -121,4 +122,43 @@ footer ul li {
   padding: 50px;
   font-size: 50px;
   color: #5bb7eb;
+}
+
+.portfolio-container {
+  background-color: #5bb7eb;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.portfolio-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-card {
+  background: #003452;
+  max-width: 500px;
+  margin: 20px;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: aliceblue;
+
+}
+
+.portfolio-image {
+  max-width: 75%;
+  max-height: 75%;
+
+}
+
+.portfolio-body {
+
+}
+
+.portfolio-button {
+
 }
