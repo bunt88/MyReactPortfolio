@@ -38,6 +38,7 @@
 }
 
 .nav-container {
+  position: relative;
   height: 150px;
   max-width: 100%;
   background: #003452;
@@ -51,13 +52,26 @@
   color:#5bb7eb;
 }
 
+nav a:hover {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+}
+
+.logo a:hover {
+  text-decoration: none;
+  color: black;
+  font-style: italic;
+}
+
 li {
   list-style: none;
 }
 
+
 .about-container{
   max-width: 100%;
-  max-height: 80%;
+  max-height: 100%;
   background-color: #5bb7eb;
   color:aliceblue;
   display:flex;
@@ -67,10 +81,44 @@ li {
   justify-content: center;
 }
 
+.name {
+  font-size: 40px;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.subtitle {
+  font-size: 20px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.textBody {
+  text-align: center;
+  margin-top: 20px;
+
+}
+
 img {
   padding: 10px;
   margin: 10px;
   max-width: 15%;
   max-height: 15%;
   border-radius: 25%;
+}
+
+footer {
+  background: #003452;
+  height: 150px;
+  width: 100%;
+  position: fixed;
+  justify-content: center;
+  align-items: center;
+  bottom: 0;
+  display: flex;
+}
+
+footer ul li {
+  display: inline;
+  padding: 50px;
+  font-size: 50px;
+  color: #5bb7eb;
 }
