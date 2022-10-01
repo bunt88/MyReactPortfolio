@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/MyReactPortfolio/static/css/main.704a7abb.css",
+    "main.js": "/MyReactPortfolio/static/js/main.423070b8.js",
+    "static/js/787.56d9acf9.chunk.js": "/MyReactPortfolio/static/js/787.56d9acf9.chunk.js",
+    "static/media/DND Right Here.png": "/MyReactPortfolio/static/media/DND Right Here.0a59e76b4c9eb6e29fa3.png",
+    "static/media/IMG_3982 (2).jpg": "/MyReactPortfolio/static/media/IMG_3982 (2).828b203c11e511d3b113.jpg",
+    "static/media/MedTracker_Image.jpg": "/MyReactPortfolio/static/media/MedTracker_Image.fec35b7a44b611bee747.jpg",
+    "static/media/coming soon.jpg": "/MyReactPortfolio/static/media/coming soon.5c32101667f69f8a3751.jpg",
+    "index.html": "/MyReactPortfolio/index.html",
+    "main.704a7abb.css.map": "/MyReactPortfolio/static/css/main.704a7abb.css.map",
+    "main.423070b8.js.map": "/MyReactPortfolio/static/js/main.423070b8.js.map",
+    "787.56d9acf9.chunk.js.map": "/MyReactPortfolio/static/js/787.56d9acf9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.704a7abb.css",
+    "static/js/main.423070b8.js"
+  ]
+}
